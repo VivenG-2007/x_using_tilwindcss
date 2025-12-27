@@ -11,116 +11,123 @@
 
 <body class=" bg-black text-white">
     <div class="flex w-full">
-        <div class="first bg-black w-110 sticky top-0">
+        <div class="fixed top-0 left-0 h-screen w-20 md:w-110 bg-black">
             <svg viewBox="0 0 24 24" aria-hidden="true"
-                class="w-9 ml-40 mt-px-10 m-2.5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
+                class="w-9 ml-5 md:ml-40 mt-px-10 m-2.5 invert r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
                 <g>
                     <path
                         d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
                     </path>
                 </g>
             </svg>
-            <div class="slidebar ml-36 mt-6 w-40">
+            <div class="slidebar ml-3 md:ml-36 mt-6 w-40">
                 <ul class="text-2xl space-y-4 select-none">
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-34 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none">
                             home
                         </span>
-                        Home
+                        <span class="hidden md:block">home</span>
                     </li>
 
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-37 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             search
                         </span>
-                        Explore
+                        <span class="hidden md:block">Explore</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-50 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             notifications
                         </span>
-                        Notifications
+                        <span class="hidden md:block">Notifications</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-36 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             person_add
                         </span>
-                        Follow
+                        <span class="hidden md:block">Follow</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-34 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none ">
                             mail
                         </span>
-                        Chat
+                        <span class="hidden md:block">Chat</span>
+
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-34 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             planet
                         </span>
-                        Grok
+                        <span class="hidden md:block">Grok</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-49 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             bookmark
                         </span>
-                        Bookmarks
+                        <span class="hidden md:block">Bookmarks</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-52 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             group
                         </span>
-                        Communities
+                        <span class="hidden md:block">Communities</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-42 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             close
                         </span>
-                        Premium
+                        <span class="hidden md:block">Premium</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-38 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             account_child_invert
                         </span>
-                        Profile
+                        <span class="hidden md:block">Profile</span>
                     </li>
                     <li
                         class="flex items-center gap-3 pl-4 hover:bg-gray-900 hover:rounded-3xl cursor-pointer w-34 h-8">
-                        <span class="material-symbols-outlined leading-none translate-y-[1px]">
+                        <span class="material-symbols-outlined leading-none hidden md:block">
                             more_horiz
                         </span>
-                        More
+                        <span class="hidden md:block">More</span>
                     </li>
                 </ul>
             </div>
             <div
-                class="post bg-white text-black w-63 h-10 justify-center items-center flex rounded-3xl text-3xl mt-5 ml-40 hover:bg-gray-400 hover:cursor-pointer hover:w-65 hover:ml-39 select-none">
-                Post</div>
+                class="post bg-white text-black md:w-63 md:h-10 justify-center items-center hidden md:flex md:block rounded-3xl text-3xl mt-5 ml-40 hover:bg-gray-400 hover:cursor-pointer hover:w-65 hover:ml-39 select-none">
+                Post
+            </div>
+            <div class="post1 block md:hidden"><span class="material-symbols-outlined w-34 h-8 gap-3 pl-7">
+                    edit
+                </span></div>
             <div class="profile flex mt-10">
                 <span>
-                    <img class="profile w-10 mt-7 ml-40" src="proflie.svg" alt="" srcset="">
+                    <img class="profile w-10 mt-7  ml-5 md:ml-40" src="proflie.svg" alt="" srcset="">
                 </span>
-                <div class="name text-xl mt-5 ml-5">
+                <div class="name text-xl mt-5 hidden md:block md:ml-12 md:w-115">
                     <div class="data">Viven</div>
                     <div class="username mt-0.2 text-sm text-gray-400">@viven12345</div>
                 </div>
-                <span class="material-symbols-outlined leading-none mt-9 ml-25">
-                    more_horiz
-                </span>
+                <div class="hidden md:block">
+                    <span class="material-symbols-outlined leading-noneml-auto ">
+                        more_horiz
+                    </span>
+                </div>
             </div>
         </div>
 
 
-        <div class="second border-x-gray-800 border-y-black border w-140 h-194">
+        <div class="second border-x-gray-800 border-y-black border w-70 md:w-140 h-310 ml-20 md:ml-115">
             <div class="top flex border-b-2 border-gray-800 h-15 text-xl font-bold">
 
                 <div class="w-1/2 flex items-center justify-center cursor-pointer
@@ -136,9 +143,9 @@
                 <img class="w-10 ml-5" src="proflie.svg" alt="">
                 <div class="mt-1 text-2xl text-gray-600 ml-2">What's happening?</div>
             </div>
-            <div class="reply flex ml-10 w-70 mt-3 items-center">
-                <div class="flex items-center justify-between w-full max-w-xl p-4 bg-black select-none">
-                    <div class="flex gap-4 items-center">
+            <div class="reply flex ml:4 md:ml-10 w-70 mt-3 items-center">
+                <div class="flex items-center border-l-gray-900 justify-between w-full max-w-xl p-4 bg-black select-none">
+                    <div class="flex  gap-0.5 md:gap-4 items-center">
                         <span
                             class="material-symbols-outlined text-blue-400 cursor-pointer hover:bg-blue-900/20 rounded-full p-1">photo</span>
                         <span
@@ -153,21 +160,25 @@
                     </div>
 
                     <button
-                        class="px-9 py-2 ml-27 bg-gray-900 hover:bg-gray-800 text-white font-bold rounded-full transition-colors">
+                        class="px-9 py-2 hidden md:block md:ml-27 bg-gray-900 hover:bg-gray-800 text-white font-bold rounded-full transition-colors">
                         Post
                     </button>
+                    <div class="post1 block md:hidden md:mt-9 border-r-gray-900"><span class="material-symbols-outlined w-10 h-8 gap-3 md:pl-7">
+                    edit
+                </span></div>
+
                 </div>
             </div>
             <div class="border border-gray-900"></div>
             <div
                 class="show border border-gray-900 h-10 flex items-center justify-center text-blue-500 hover:cursor-pointer hover:bg-gray-800 select-none">
                 Show 175 posts</div>
-            <div class="card1 flex">
-                <img class="w-10 rounded-4xl ml-3 mt-3"
+            <div class="card1 flex w-70">
+                <img class="w-10 h-10 rounded-4xl ml-1 md:ml-3 mt-3"
                     src="https://pbs.twimg.com/profile_images/1995407795835772928/Wp7m4L9h_400x400.jpg" alt="">
 
-                <div>
-                    <div class="flex mt-3 ml-3 "><span class="hover:underline hover:cursor-pointer">Elon Musk</span>
+                <div class="md:text-xl text-xs">
+                    <div class="flex mt-3 ml-3 w-50 md:w-80"><span class="hover:underline hover:cursor-pointer ">Elon Musk</span>
                         <span class="material-symbols-outlined text-blue-500 w-4s">
                             verified
                         </span><svg viewBox="0 0 24 24" aria-hidden="true"
@@ -177,12 +188,12 @@
                                     d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
                                 </path>
                             </g>
-                        </svg><span class="text-gray-600">@elonmusk · 10h
+                        </svg><span class="text-gray-600 truncate   ">@elonmusk · 10h
                         </span>
                     </div>
                     <div class="ml-3">Switch to 𝕏 Chat. It’s just better!</div>
                 </div>
-                <div class="mt-6 ml-45"><span
+                <div class="md:mt-6 mt-4 ml:2 md:ml-28 md:flex"><span
                         class="material-symbols-outlined text-gray-500 hover:text-blue-500 hover:cursor-pointer select-none">
                         planet
                     </span>
@@ -193,28 +204,28 @@
                 </div>
 
             </div>
-            <div class="border border-gray-800 w-120 ml-10 mt-5 rounded-xl  ">
+            <div class="border border-gray-800 w-67 md:w-120 ml-1 md:ml-10 mt-5 rounded-xl md:text-xl text-xs ">
                 <div class="incard1">
-                    <div class="flex mt-3 ml-3 "><span class="hover:cursor-pointer">Elon
+                    <div class="flex mt-3 ml-3 "><span class="hover:cursor-pointer ">Elon
                             Tesla Owners Silicon Valley
                         </span>
                         <span class="material-symbols-outlined text-yellow-300 w-4s">
                             verified
-                        </span><span class="text-gray-600">@teslaownersSV· 11h
+                        </span><span class="text-gray-600 truncate">@teslaownersSV· 11h
                         </span>
                     </div>
                 </div>
                 <div class="ml-3 ">Make the switch to 𝕏 Chat.</div>
-                <img class="h-90 ml-24 mt-5 rounded-xl"
+                <img class="h-80 ml-6 md:ml-24 mt-5 rounded-xl"
                     src="https://pbs.twimg.com/media/G9ClnkTWQAEmo4c?format=jpg&name=small" alt="">
-                <ul class="flex gap-3 ml-7 mt-7 text-gray-600 mb-4 hover:cursor-pointer">
+                <ul class="flex gap-0.5 md:gap-3 ml-3 md:ml-7 mt-7 text-gray-600 mb-4 hover:cursor-pointer text-xs">
                     <li class="hover:text-blue-400 flex">
                         <span class="material-symbols-outlined ">
                             chat
                         </span>
                         <span>1.7k</span>
                     </li>
-                    <li class="hover:text-blue-400 flex"><span class="material-symbols-outlined">
+                    <li class="hover:text-blue-400 flex text-xs"><span class="material-symbols-outlined">
                             post_add
                         </span>
                         <span>2.2k</span>
@@ -231,7 +242,7 @@
                         </span>
                         <span>1.9M</span>
                     </li>
-                    <li class="hover:text-blue-400 ml-20 flex">
+                    <li class="hover:text-blue-400 ml-1 md:ml-20 flex">
                         <span class="material-symbols-outlined">
                             bookmark
                         </span>
@@ -241,14 +252,16 @@
                             upload
                         </span>
                     </li>
+                    
                 </ul>
             </div>
-            <div class="card1 flex">
-                <img class="w-10 rounded-4xl ml-3 mt-3"
+            
+            <div class="card1 flex w-70">
+                <img class="w-10 h-10 rounded-4xl ml-1 md:ml-3 mt-3"
                     src="https://pbs.twimg.com/profile_images/2003879015598223360/lQlRQPnU_400x400.jpg" alt="">
 
-                <div>
-                    <div class="flex mt-3 ml-3 "><span class="hover:underline hover:cursor-pointer">MrBeast</span>
+                <div class="md:text-xl text-xs">
+                    <div class="flex mt-3 ml-3 w-50 md:w-80"><span class="hover:underline hover:cursor-pointer ">MrBeast</span>
                         <span class="material-symbols-outlined text-blue-500 w-4s">
                             verified
                         </span><svg viewBox="0 0 24 24" aria-hidden="true"
@@ -258,13 +271,13 @@
                                     d="M21.742 21.75l-7.563-11.179 7.056-8.321h-2.456l-5.691 6.714-4.54-6.714H2.359l7.29 10.776L2.25 21.75h2.456l6.035-7.118 4.818 7.118h6.191-.008zM7.739 3.818L18.81 20.182h-2.447L5.29 3.818h2.447z">
                                 </path>
                             </g>
-                        </svg><span class="text-gray-600">@MrBeast · 19h
+                        </svg><span class="text-gray-600 truncate   ">@mrbeast · 19h
                         </span>
                     </div>
-                    <div class="ml-3">Switch to 𝕏 Chat. It’s just better!</div>
+                    <div class="ml-3">Its Marry Christmas!</div>
                 </div>
-                <div class="mt-6 ml-45"><span
-                        class="material-symbols-outlined text-gray-500 hover:text-blue-500 hover:cursor-pointer select-none">
+                <div class="md:mt-6 mt-4 ml:2 md:ml-28 md:flex"><span
+                        class="material-symbols-outlined text-gray-500 hover:text-blue-500 hover:cursor-pointer select-none ">
                         planet
                     </span>
                     <span
@@ -274,40 +287,45 @@
                 </div>
 
             </div>
-            <div class="border border-gray-800 w-120 ml-10 mt-5 rounded-xl  border-t-gray-800">
+            <div class="border border-gray-800 w-67 md:w-120 ml-1 md:ml-10 mt-5 rounded-xl md:text-xl text-xs ">
                 <div class="incard1">
-                    <div class="flex mt-3 ml-3 "><span class="hover:cursor-pointer">Elon
-                            Anyways, grateful for my cuite
+                    <div class="flex mt-3 ml-3 "><span class="hover:cursor-pointer ">
+                            MrBeast
+                        </span>
+                        <span class="material-symbols-outlined text-yellow-300 w-4s">
+                            verified
+                        </span><span class="text-gray-600 truncate">@teslaownersSV· 11h
                         </span>
                     </div>
                 </div>
-                <img class="h-90 ml-24 mt-5 rounded-xl"
+                <div class="ml-3 ">Anyways, grateful for my cuite</div>
+                <img class="h-80 ml-6 md:ml-24 mt-5 rounded-xl"
                     src="https://pbs.twimg.com/media/G9Cy1sOXIAAwt3r?format=jpg&name=small" alt="">
-                <ul class="flex gap-3 ml-7 mt-7 text-gray-600 mb-4 hover:cursor-pointer">
+                <ul class="flex gap-0.5 md:gap-3 ml-3 md:ml-7 mt-7 text-gray-600 mb-4 hover:cursor-pointer text-xs">
                     <li class="hover:text-blue-400 flex">
                         <span class="material-symbols-outlined ">
                             chat
                         </span>
                         <span>1.7k</span>
                     </li>
-                    <li class="hover:text-blue-400 flex"><span class="material-symbols-outlined">
+                    <li class="hover:text-blue-400 flex text-xs"><span class="material-symbols-outlined">
                             post_add
                         </span>
-                        <span>2.2k</span>
+                        <span>1.2k</span>
                     </li>
                     <li class="hover:text-blue-400 flex">
                         <span class="material-symbols-outlined">
                             favorite
                         </span>
-                        <span>12k</span>
+                        <span>22k</span>
                     </li>
                     <li class="hover:text-blue-400 flex">
                         <span class="material-symbols-outlined">
                             insert_chart
                         </span>
-                        <span>1.9M</span>
+                        <span>1.5MM</span>
                     </li>
-                    <li class="hover:text-blue-400 ml-20 flex">
+                    <li class="hover:text-blue-400 ml-1 md:ml-20 flex">
                         <span class="material-symbols-outlined">
                             bookmark
                         </span>
@@ -317,15 +335,16 @@
                             upload
                         </span>
                     </li>
+                    
                 </ul>
             </div>
-
+            
         </div>
 
 
 
 
-        <div class="third">
+        <div class="third hidden md:block fixed left-257">
             <div class="search flex items-center gap-3 px-4 h-10 w-80 rounded-3xl border border-gray-700 mt-3 justify-center 
             ml-3 hover:border-blue-900 hover:cursor-text hover:border-2 static">
                 <span class="material-symbols-outlined text-gray-600">
@@ -385,9 +404,30 @@
                     <div class="no1 flex text-sm text-gray-600 w-80 mb-3">534k posts</div>
 
                 </div>
-                <div class="text-white font-bold text-3xl ml-20 mt-10">
-                    Twitter
+                <div class="mt-10 text-gray-500 text-xs">
+                    <ul class="flex flex-wrap gap-x-2">
+                        <li class="hover:underline cursor-pointer">Terms of Service</li>
+                        <span>|</span>
+
+                        <li class="hover:underline cursor-pointer">Privacy Policy</li>
+                        <span>|</span>
+
+                        <li class="hover:underline cursor-pointer">Cookie Policy</li>
+                        <span>|</span>
+
+                        <li class="hover:underline cursor-pointer">Accessibility</li>
+                        <span>|</span>
+
+                        <li class="hover:underline cursor-pointer">Ads info</li>
+                        <span>|</span>
+
+                        <li class="hover:underline cursor-pointer">More…</li>
+                        <span>|</span>
+
+                        <li>© 2025 X Corp.</li>
+                    </ul>
                 </div>
+
             </div>
         </div>
 
